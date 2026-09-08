@@ -7,7 +7,8 @@ body:
     attributes:
       value: |
         Imposter is a family game. Only propose words a parent would be fine
-        seeing on a kid's screen. Read CONTRIBUTING.md before you file this.
+        seeing on a kid's screen. Read CONTRIBUTING.md before you file this,
+        including the lookup resources there.
   - type: input
     id: english
     attributes:

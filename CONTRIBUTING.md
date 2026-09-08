@@ -50,6 +50,15 @@ This is the public Suret word list for Imposter. You fork, you open a pull reque
 
 Do not add images, `visualAid`, or anything that only makes sense inside the game. This repo is the word list.
 
+## Looking up words
+
+Two places to find a form before you open a PR:
+
+- [Chicago Assyrian Dictionary](https://isac.uchicago.edu/research/publications/chicago-assyrian-dictionary) — 21 volumes, free to read as PDFs. The largest published collection.
+- [Sharrukin Assyrian Dictionary](https://www.sharrukin.io/assyrian-dictionary/) — interactive search of more than 6,000 words.
+
+They are starting points. We still want the Eastern Suret form people actually say, and the family-friendly rules still apply.
+
 ## Spelling
 
 - Use the Eastern Suret form people actually say.

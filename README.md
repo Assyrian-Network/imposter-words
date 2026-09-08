@@ -20,7 +20,7 @@ Fork the repo, add a word, open a pull request. We review spelling, categories, 
 3. Run `npm run catalog` then `npm test`
 4. Open a pull request (one word, or a small related set)
 
-[CONTRIBUTING.md](CONTRIBUTING.md) has the field rules, spelling notes, and the family-friendly bar. Imposter is played with kids in the room. Passing tests does not mean we will merge it.
+[CONTRIBUTING.md](CONTRIBUTING.md) has the field rules, spelling notes, lookup resources, and the family-friendly bar. Imposter is played with kids in the room. Passing tests does not mean we will merge it.
 
 ## Validation
 
