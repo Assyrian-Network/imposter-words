@@ -13,14 +13,11 @@ This repo is the public lexicon: Eastern Suret in Syriac script, a Latin spellin
 
 ## Contribute
 
-Fork the repo, add a word, open a pull request. We review spelling, categories, duplicates, and whether the word belongs in a family game before it lands on `main`.
+You do not need Git. [Propose a word](https://github.com/Assyrian-Network/imposter-words/issues/new?template=word.yml) in an issue. We review spelling, categories, duplicates, and whether it belongs in a family game. If we take it, we add it to the list.
 
-1. Fork
-2. Edit `data/words.json`
-3. Run `npm run catalog` then `npm test`
-4. Open a pull request (one word, or a small related set)
+If you already use Git, you can still open a pull request. That is optional.
 
-[CONTRIBUTING.md](CONTRIBUTING.md) has the field rules, spelling notes, lookup resources, and the family-friendly bar. Imposter is played with kids in the room. Passing tests does not mean we will merge it.
+[CONTRIBUTING.md](CONTRIBUTING.md) has both paths, lookup resources, and the family-friendly bar. Imposter is played with kids in the room. Passing tests does not mean we will merge it.
 
 ## Validation
 
@@ -33,4 +30,4 @@ That checks the schema, category ids, duplicates, and a short list of English/La
 
 ## License
 
-The list is [CC BY 4.0](LICENSE). Opening a pull request also grants Assyrian Network the rights in [CONTRIBUTING.md](CONTRIBUTING.md) so we can use the word in Imposter and other Assyrian Network projects.
+The list is [CC BY 4.0](LICENSE). Opening a word-proposal issue or a pull request also grants Assyrian Network the rights in [CONTRIBUTING.md](CONTRIBUTING.md) so we can use the word in Imposter and other Assyrian Network projects.

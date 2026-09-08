@@ -13,4 +13,4 @@
 
 ## Notes for maintainers
 
-<!-- Other spellings, dialect, sources. -->
+<!-- Other spellings, dialect, sources. Link the issue if this PR comes from a proposal. -->

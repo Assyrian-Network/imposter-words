@@ -1,11 +1,13 @@
 name: Propose a word
-description: Float a Suret word before someone opens a pull request to add it.
+description: Suggest a Suret word. No Git needed — we will add it if it fits.
 title: "Word proposal: "
 labels: ["word-proposal"]
 body:
   - type: markdown
     attributes:
       value: |
+        You do not need to fork the repo. If we accept the word, we add it.
+
         Imposter is a family game. Only propose words a parent would be fine
         seeing on a kid's screen. Read CONTRIBUTING.md before you file this,
         including the lookup resources there.

@@ -1,15 +1,27 @@
 # Contributing
 
-This is the public Suret word list for Imposter. You fork, you open a pull request, we review it. Below is what a good entry looks like and what we turn down.
+This is the public Suret word list for Imposter. Propose a word, we review it, and we add it if it fits. You do not need to know Git.
 
-## Before you start
+## Propose a word
 
-- Fork the repository.
-- Work in `data/words.json`. Leave other files alone unless we ask.
-- Keep the PR small: one word, or a handful that clearly belong together.
-- After you edit the list, run `npm run catalog` (copies the list into the catalog) and `npm test`.
+The usual way is a [word proposal issue](https://github.com/Assyrian-Network/imposter-words/issues/new?template=word.yml). Fill in the English gloss, Syriac, Latin spelling, and a category. Note dialect or other spellings if they matter.
 
-## Adding a word
+We read every proposal against the family-friendly rules below. If we take the word, we add it to the list.
+
+If you already use Git, you can open a pull request instead. That is optional.
+
+## Looking up words
+
+Two places to find a form before you propose it:
+
+- [Chicago Assyrian Dictionary](https://isac.uchicago.edu/research/publications/chicago-assyrian-dictionary) — 21 volumes, free to read as PDFs. The largest published collection.
+- [Sharrukin Assyrian Dictionary](https://www.sharrukin.io/assyrian-dictionary/) — interactive search of more than 6,000 words.
+
+They are starting points. We still want the Eastern Suret form people actually say, and the family-friendly rules still apply.
+
+## Opening a pull request
+
+Only do this if you are comfortable with Git. Keep the change small: one word, or a handful that clearly belong together. Work in `data/words.json` and leave other files alone unless we ask.
 
 1. Fork and make a branch.
 2. Add the entry to `data/words.json`.
@@ -50,27 +62,27 @@ This is the public Suret word list for Imposter. You fork, you open a pull reque
 
 Do not add images, `visualAid`, or anything that only makes sense inside the game. This repo is the word list.
 
-## Looking up words
+### Pull request checklist
 
-Two places to find a form before you open a PR:
-
-- [Chicago Assyrian Dictionary](https://isac.uchicago.edu/research/publications/chicago-assyrian-dictionary) — 21 volumes, free to read as PDFs. The largest published collection.
-- [Sharrukin Assyrian Dictionary](https://www.sharrukin.io/assyrian-dictionary/) — interactive search of more than 6,000 words.
-
-They are starting points. We still want the Eastern Suret form people actually say, and the family-friendly rules still apply.
+- [ ] `npm run catalog` and `npm test` both pass
+- [ ] No duplicate id, Syriac form, or Latin form
+- [ ] Category fits
+- [ ] English gloss is short and accurate
+- [ ] The word meets the family-friendly rules
+- [ ] The PR says what the word is and notes dialect if needed
 
 ## Spelling
 
 - Use the Eastern Suret form people actually say.
 - Match Latin spelling to nearby entries in the same category. Skim a few first.
 - Vowels and dots should follow common community use, not a private system.
-- If there are two accepted forms, pick one and mention the other in the PR. Do not file two entries for the same word.
+- If there are two accepted forms, pick one and mention the other. Do not file two entries for the same word.
 
 ## Family-friendly rules
 
 Imposter is a family game. Kids play it. Every word, hint, and English gloss has to be something a parent is fine seeing on a child's screen.
 
-`npm test` blocks a short list of English and Latin terms. That is the floor. We still read every PR, and our call is final. Green tests do not mean a merge.
+`npm test` blocks a short list of English and Latin terms. That is the floor. We still read every proposal, and our call is final. Green tests do not mean a merge.
 
 We will not take:
 
@@ -85,24 +97,15 @@ We will not take:
 - **Bathroom jokes.** Plain body or health terms can stay. Joke words about bodily functions cannot.
 - **Memes and brand gags** that will age badly. This list should still make sense in a few years.
 
-If you are on the fence, say so in the PR. Ask. That is easier than a reject.
-
-## Pull request checklist
-
-- [ ] `npm run catalog` and `npm test` both pass
-- [ ] No duplicate id, Syriac form, or Latin form
-- [ ] Category fits
-- [ ] English gloss is short and accurate
-- [ ] The word meets the family-friendly rules
-- [ ] The PR says what the word is and notes dialect if needed
+If you are on the fence, say so in the issue or PR. Ask. That is easier than a reject.
 
 ## Review
 
-We may ask for a spelling or category change, or we may decline the word. That includes words that pass tests but still feel wrong for a family game. We squash-merge, so `main` stays one commit per change.
+We may ask for a spelling or category change, or we may decline the word. That includes words that pass tests but still feel wrong for a family game. Accepted issue proposals are added by maintainers. We squash-merge pull requests, so `main` stays one commit per change.
 
 ## License
 
-By opening a pull request you agree that:
+By opening a word-proposal issue or a pull request you agree that:
 
 1. You have the right to submit the material.
 2. You license it under CC BY 4.0.
