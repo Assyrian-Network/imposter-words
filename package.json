@@ -1,0 +1,23 @@
+{
+  "name": "imposter-words",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official Suret word pool for Imposter by Assyrian Network",
+  "license": "CC-BY-4.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">=24",
+      "onFail": "error"
+    }
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/validate.mjs",
+    "catalog": "node scripts/sync-catalog.mjs"
+  }
+}

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Imposter Words</title>
+    <meta
+      name="description"
+      content="The official Suret word list for Imposter, published by Assyrian Network."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Idiqlat&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --azure-900: #0b181f;
+        --azure-800: #182f3a;
+        --azure-700: #274756;
+        --azure-600: #3a6174;
+        --azure-500: #527c91;
+        --azure-400: #6c92a6;
+        --azure-300: #8eadbd;
+        --azure-200: #b1c8d4;
+        --azure-100: #d3e1e8;
+        --azure-50: #ebf3f7;
+        --terracotta-700: #733120;
+        --terracotta-600: #97432f;
+        --terracotta-500: #b85c45;
+        --terracotta-400: #c97560;
+        --teal-600: #2a5c5a;
+        --teal-500: #3f7774;
+        --teal-400: #61918e;
+        --teal-300: #87adab;
+        --sand-600: #b5975f;
+        --sand-500: #d8b77a;
+        --sand-400: #dfc391;
+        --sand-300: #e7d1aa;
+        --alabaster-800: #86837d;
+        --alabaster-700: #b2ada5;
+        --alabaster-500: #f6f0e4;
+        --alabaster-200: #fbf8f2;
+        --alabaster-50: #fefdfc;
+        --umber-800: #0c0806;
+        --umber-700: #16100d;
+        --umber-600: #201914;
+        --umber-500: #29231f;
+        --umber-400: #574e48;
+        --umber-300: #877e78;
+        --umber-200: #b1a9a4;
+        --bg: var(--umber-700);
+        --bg-elevated: var(--umber-600);
+        --bg-card: var(--umber-500);
+        --border: rgba(246, 240, 228, 0.12);
+        --text: var(--alabaster-500);
+        --muted: var(--umber-200);
+        --accent: var(--sand-500);
+        --accent-soft: rgba(216, 183, 122, 0.16);
+        --link: var(--azure-300);
+        --link-hover: var(--sand-400);
+        --focus: var(--azure-400);
+        --focus-soft: rgba(82, 124, 145, 0.28);
+        --tag-bg: rgba(63, 119, 116, 0.22);
+        --tag-fg: var(--teal-300);
+        --glow-azure: rgba(82, 124, 145, 0.22);
+        --glow-teal: rgba(63, 119, 116, 0.18);
+        --glow-sand: rgba(216, 183, 122, 0.14);
+        --shadow: 0 14px 28px rgba(4, 3, 2, 0.3);
+        --radius: 18px;
+        --font: "Manrope", system-ui, sans-serif;
+        --syriac: "Idiqlat", "Segoe UI Historic", serif;
+      }
+
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: var(--alabaster-500);
+          --bg-elevated: var(--alabaster-50);
+          --bg-card: var(--alabaster-50);
+          --border: rgba(41, 35, 31, 0.1);
+          --text: var(--umber-500);
+          --muted: var(--umber-300);
+          --accent: var(--azure-500);
+          --accent-soft: rgba(82, 124, 145, 0.12);
+          --link: var(--azure-600);
+          --link-hover: var(--terracotta-500);
+          --focus: var(--azure-500);
+          --focus-soft: rgba(82, 124, 145, 0.18);
+          --tag-bg: rgba(63, 119, 116, 0.12);
+          --tag-fg: var(--teal-600);
+          --glow-azure: rgba(82, 124, 145, 0.16);
+          --glow-teal: rgba(63, 119, 116, 0.12);
+          --glow-sand: rgba(216, 183, 122, 0.22);
+          --shadow: 0 12px 22px rgba(41, 35, 31, 0.06);
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: var(--font);
+        background:
+          radial-gradient(circle at top left, var(--glow-sand), transparent 32%),
+          radial-gradient(circle at top right, var(--glow-teal), transparent 28%),
+          radial-gradient(circle at bottom center, var(--glow-azure), transparent 36%),
+          var(--bg);
+        color: var(--text);
+      }
+
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: var(--link-hover);
+        text-decoration: underline;
+      }
+
+      a:focus-visible {
+        outline: 2px solid var(--focus);
+        outline-offset: 3px;
+        border-radius: 4px;
+      }
+
+      .shell {
+        width: min(1100px, calc(100% - 2rem));
+        margin: 0 auto;
+        padding: 2.5rem 0 4rem;
+      }
+
+      header {
+        display: grid;
+        gap: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        width: fit-content;
+        padding: 0.35rem 0.75rem;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 4vw, 3.2rem);
+        line-height: 1.1;
+        letter-spacing: -0.03em;
+      }
+
+      .lede {
+        max-width: 42rem;
+        margin: 0;
+        color: var(--muted);
+        font-size: 1.05rem;
+        line-height: 1.6;
+      }
+
+      .panel {
+        display: grid;
+        gap: 1rem;
+        padding: 1.1rem;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        background: color-mix(in srgb, var(--bg-elevated) 92%, transparent);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(10px);
+      }
+
+      .controls {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 0.75rem;
+      }
+
+      @media (max-width: 720px) {
+        .controls {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      input,
+      select {
+        width: 100%;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: var(--bg-card);
+        color: var(--text);
+        padding: 0.85rem 1rem;
+        font: inherit;
+        outline: none;
+      }
+
+      input:focus,
+      select:focus {
+        border-color: var(--focus);
+        box-shadow: 0 0 0 3px var(--focus-soft);
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem 1.25rem;
+        align-items: center;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .links {
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.65rem 1rem;
+      }
+
+      .meta strong {
+        color: var(--text);
+        font-weight: 600;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 0.9rem;
+        margin-top: 1.25rem;
+      }
+
+      .card {
+        display: grid;
+        gap: 0.65rem;
+        padding: 1rem 1.05rem 1.1rem;
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        background: var(--bg-card);
+        transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+      }
+
+      @media (prefers-reduced-motion: no-preference) {
+        .card:hover {
+          transform: translateY(-2px);
+          border-color: var(--azure-400);
+          box-shadow: 0 10px 24px rgba(41, 35, 31, 0.12);
+        }
+      }
+
+      .card-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
+
+      .syriac {
+        font-family: var(--syriac);
+        font-size: 1.85rem;
+        line-height: 1.35;
+        direction: rtl;
+        text-align: right;
+      }
+
+      .latin {
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      .english {
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        min-width: 0;
+      }
+
+      .tag {
+        padding: 0.25rem 0.55rem;
+        border-radius: 999px;
+        background: var(--tag-bg);
+        color: var(--tag-fg);
+        font-size: 0.75rem;
+        font-weight: 600;
+        line-height: 1;
+      }
+
+      .id {
+        flex-shrink: 0;
+        color: var(--muted);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+        font-size: 0.78rem;
+        line-height: 1;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      .empty {
+        padding: 2.5rem 1rem;
+        text-align: center;
+        color: var(--muted);
+      }
+
+      footer {
+        margin-top: 2.5rem;
+        color: var(--muted);
+        font-size: 0.9rem;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header>
+        <div class="eyebrow">Assyrian Network</div>
+        <h1>Imposter Words</h1>
+        <p class="lede">
+          The Suret word list used by Imposter. Each entry has Syriac,
+          a Latin spelling, and a short English gloss. New words come in
+          as pull requests and only land here after we review them.
+        </p>
+      </header>
+
+      <section class="panel">
+        <div class="controls">
+          <label class="sr-only" for="search">Search the word pool</label>
+          <input
+            id="search"
+            type="search"
+            placeholder="Search Syriac, Latin, or English"
+            autocomplete="off"
+          />
+          <label class="sr-only" for="category">Filter by category</label>
+          <select id="category">
+            <option value="">All categories</option>
+          </select>
+        </div>
+        <div class="meta">
+          <span><strong id="visible-count">0</strong> shown</span>
+          <span><strong id="total-count">0</strong> total</span>
+          <span class="links">
+            <a href="https://github.com/Assyrian-Network/imposter-words"
+              >GitHub repository</a
+            >
+            <a href="https://games.assyrian.net/imposter" rel="noopener"
+              >Play Imposter</a
+            >
+          </span>
+        </div>
+      </section>
+
+      <section id="grid" class="grid" aria-live="polite"></section>
+      <div id="empty" class="empty" hidden>No words match your filters.</div>
+
+      <footer>
+        <a href="https://www.assyrian.net">Assyrian Network</a>, CC BY 4.0.
+        Play <a href="https://games.assyrian.net/imposter" rel="noopener">Imposter</a>.
+        This page is just the word list.
+      </footer>
+    </div>
+
+    <script>
+      const categoryNames = {
+        everyday_objects: "Everyday Objects",
+        famous_people: "Famous People",
+        foods_drinks: "Foods & Drinks",
+        animals: "Animals",
+        hobbies_activities: "Hobbies & Activities",
+        kitchen_cooking: "Kitchen & Cooking",
+        school_education: "School & Education",
+        science_technology: "Science & Technology",
+        sports: "Sports",
+        countries: "Countries",
+        body_health: "Body & Health",
+      };
+
+      const searchInput = document.getElementById("search");
+      const categorySelect = document.getElementById("category");
+      const grid = document.getElementById("grid");
+      const empty = document.getElementById("empty");
+      const visibleCount = document.getElementById("visible-count");
+      const totalCount = document.getElementById("total-count");
+
+      let words = [];
+
+      function normalize(value) {
+        return String(value || "")
+          .toLowerCase()
+          .trim();
+      }
+
+      function render() {
+        const query = normalize(searchInput.value);
+        const category = categorySelect.value;
+        const filtered = words.filter((word) => {
+          const haystack = [
+            word.id,
+            word.english,
+            word.display?.eastern?.syriac,
+            word.display?.eastern?.latin,
+            word.display?.western?.syriac,
+            word.display?.western?.latin,
+            ...(word.categories || []),
+          ]
+            .filter(Boolean)
+            .join(" ")
+            .toLowerCase();
+          const matchesQuery = !query || haystack.includes(query);
+          const matchesCategory =
+            !category || (word.categories || []).includes(category);
+          return matchesQuery && matchesCategory;
+        });
+
+        grid.replaceChildren();
+        for (const word of filtered) {
+          const card = document.createElement("article");
+          card.className = "card";
+
+          const top = document.createElement("div");
+          top.className = "card-top";
+
+          const tags = document.createElement("div");
+          tags.className = "tags";
+          for (const category of word.categories || []) {
+            const tag = document.createElement("span");
+            tag.className = "tag";
+            tag.textContent = categoryNames[category] || category;
+            tags.appendChild(tag);
+          }
+
+          const id = document.createElement("div");
+          id.className = "id";
+          id.textContent = word.id || "";
+          top.append(tags, id);
+
+          const syriac = document.createElement("div");
+          syriac.className = "syriac";
+          syriac.textContent = word.display?.eastern?.syriac || "";
+
+          const latin = document.createElement("div");
+          latin.className = "latin";
+          latin.textContent = word.display?.eastern?.latin || "";
+
+          const english = document.createElement("div");
+          english.className = "english";
+          english.textContent = word.english || "";
+
+          card.append(top, syriac, latin, english);
+          grid.appendChild(card);
+        }
+
+        visibleCount.textContent = String(filtered.length);
+        empty.hidden = filtered.length > 0;
+      }
+
+      async function boot() {
+        const response = await fetch("./words.json", { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error("The word list could not be loaded.");
+        }
+        const payload = await response.json();
+        if (!Array.isArray(payload)) {
+          throw new Error("The word list is not valid.");
+        }
+        words = payload;
+        totalCount.textContent = String(words.length);
+
+        const used = [...new Set(words.flatMap((word) => word.categories || []))]
+          .sort();
+        for (const id of used) {
+          const option = document.createElement("option");
+          option.value = id;
+          option.textContent = categoryNames[id] || id;
+          categorySelect.appendChild(option);
+        }
+
+        searchInput.addEventListener("input", render);
+        categorySelect.addEventListener("change", render);
+        render();
+      }
+
+      boot().catch((error) => {
+        empty.hidden = false;
+        empty.textContent = error.message;
+      });
+    </script>
+  </body>
+</html>

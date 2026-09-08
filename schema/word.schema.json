@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.assyrian.net/schemas/imposter-word.json",
+  "title": "Imposter Suret Word",
+  "description": "A single Suret word entry for the Imposter word pool.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "display", "categories", "english"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^w[0-9]{3,}$",
+      "description": "Stable word id. Maintainers assign or confirm ids."
+    },
+    "display": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["eastern"],
+      "properties": {
+        "eastern": { "$ref": "#/$defs/scriptPair" },
+        "western": { "$ref": "#/$defs/scriptPair" }
+      }
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "everyday_objects",
+          "famous_people",
+          "foods_drinks",
+          "animals",
+          "hobbies_activities",
+          "kitchen_cooking",
+          "school_education",
+          "science_technology",
+          "sports",
+          "countries",
+          "body_health"
+        ]
+      }
+    },
+    "english": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Short English gloss used for review and duplicate checks."
+    },
+    "hints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "eastern": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/scriptPair" }
+        },
+        "western": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/scriptPair" }
+        }
+      }
+    },
+    "seasonal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["availableFrom", "availableUntil"],
+      "properties": {
+        "availableFrom": {
+          "type": "string",
+          "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"
+        },
+        "availableUntil": {
+          "type": "string",
+          "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "scriptPair": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["syriac", "latin"],
+      "properties": {
+        "syriac": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Suret text in Syriac script."
+        },
+        "latin": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Latin transliteration."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "categories": [
+    {
+      "id": "everyday_objects",
+      "name": "Everyday Objects",
+      "description": "Common household and daily-life items"
+    },
+    {
+      "id": "famous_people",
+      "name": "Famous People",
+      "description": "Well-known historical or public figures"
+    },
+    {
+      "id": "foods_drinks",
+      "name": "Foods & Drinks",
+      "description": "Foods, ingredients, and beverages"
+    },
+    {
+      "id": "animals",
+      "name": "Animals",
+      "description": "Animals and living creatures"
+    },
+    {
+      "id": "hobbies_activities",
+      "name": "Hobbies & Activities",
+      "description": "Pastimes, crafts, and recreational activities"
+    },
+    {
+      "id": "kitchen_cooking",
+      "name": "Kitchen & Cooking",
+      "description": "Kitchen tools and cooking-related items"
+    },
+    {
+      "id": "school_education",
+      "name": "School & Education",
+      "description": "School supplies and learning concepts"
+    },
+    {
+      "id": "science_technology",
+      "name": "Science & Technology",
+      "description": "Science, devices, and technology"
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "description": "Sports, games, and athletic equipment"
+    },
+    {
+      "id": "countries",
+      "name": "Countries",
+      "description": "Countries and places"
+    },
+    {
+      "id": "body_health",
+      "name": "Body & Health",
+      "description": "Body parts and health-related terms"
+    }
+  ]
+}

@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "w001",
+    "display": {
+      "eastern": {
+        "syriac": "ܒܲܝܬܵܐ",
+        "latin": "bayta"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "house"
+  },
+  {
+    "id": "w002",
+    "display": {
+      "eastern": {
+        "syriac": "ܠܲܚܡܵܐ",
+        "latin": "lakhma"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "bread"
+  },
+  {
+    "id": "w003",
+    "display": {
+      "eastern": {
+        "syriac": "ܡܝܐ",
+        "latin": "maya"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "water"
+  },
+  {
+    "id": "w004",
+    "display": {
+      "eastern": {
+        "syriac": "ܝܵܡܵܐ",
+        "latin": "yama"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "sea"
+  },
+  {
+    "id": "w005",
+    "display": {
+      "eastern": {
+        "syriac": "ܫܡܲܝܵܐ",
+        "latin": "shmaya"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "sky"
+  },
+  {
+    "id": "w006",
+    "display": {
+      "eastern": {
+        "syriac": "ܫܸܡܫܵܐ",
+        "latin": "shimsha"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "sun"
+  },
+  {
+    "id": "w007",
+    "display": {
+      "eastern": {
+        "syriac": "ܣܲܗܪܵܐ",
+        "latin": "sahra"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "moon"
+  },
+  {
+    "id": "w008",
+    "display": {
+      "eastern": {
+        "syriac": "ܟܲܘܟ݂ܒ݂ܵܐ",
+        "latin": "kawkhva"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "star"
+  },
+  {
+    "id": "w009",
+    "display": {
+      "eastern": {
+        "syriac": "ܐܝܠܢܐ",
+        "latin": "ilana"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "tree"
+  },
+  {
+    "id": "w010",
+    "display": {
+      "eastern": {
+        "syriac": "ܐܪܥܐ",
+        "latin": "ara"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "earth"
+  },
+  {
+    "id": "w011",
+    "display": {
+      "eastern": {
+        "syriac": "ܚܲܒܘܼܫܵܐ",
+        "latin": "khabbusha"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "apple"
+  },
+  {
+    "id": "w012",
+    "display": {
+      "eastern": {
+        "syriac": "ܡܘܼܙܵܐ",
+        "latin": "muza"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "banana"
+  },
+  {
+    "id": "w013",
+    "display": {
+      "eastern": {
+        "syriac": "ܦܘܼܪܬܩܵܠܵܐ",
+        "latin": "purtqala"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "orange"
+  },
+  {
+    "id": "w014",
+    "display": {
+      "eastern": {
+        "syriac": "ܥܲܢܒ݂ܵܐ",
+        "latin": "`anva"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "grape"
+  },
+  {
+    "id": "w015",
+    "display": {
+      "eastern": {
+        "syriac": "ܬܘܼܬ݂ ܐܲܪܥܵܐ",
+        "latin": "tuth ar`ah"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "strawberry"
+  },
+  {
+    "id": "w016",
+    "display": {
+      "eastern": {
+        "syriac": "ܠܝܼܡܘܿܢܵܐ",
+        "latin": "limona"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "lemon"
+  },
+  {
+    "id": "w017",
+    "display": {
+      "eastern": {
+        "syriac": "ܒܸܨܠܵܐ",
+        "latin": "bisla"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "onion"
+  },
+  {
+    "id": "w018",
+    "display": {
+      "eastern": {
+        "syriac": "ܬܘܼܡܵܐ",
+        "latin": "tuma"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "garlic"
+  },
+  {
+    "id": "w019",
+    "display": {
+      "eastern": {
+        "syriac": "ܛܵܡܵܛܵܐ",
+        "latin": "tamata"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "tomato"
+  },
+  {
+    "id": "w020",
+    "display": {
+      "eastern": {
+        "syriac": "ܟܸܪܬܲܘܦܵܐ",
+        "latin": "kirtawpa"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "potato"
+  },
+  {
+    "id": "w021",
+    "display": {
+      "eastern": {
+        "syriac": "ܓܸܙܵܪܵܐ",
+        "latin": "gizzara"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "carrot"
+  },
+  {
+    "id": "w022",
+    "display": {
+      "eastern": {
+        "syriac": "ܟ݂ܝܵܪܵܐ",
+        "latin": "khyara"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "cucumber"
+  },
+  {
+    "id": "w023",
+    "display": {
+      "eastern": {
+        "syriac": "ܪܘܼܙܵܐ",
+        "latin": "ruza"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "rice"
+  },
+  {
+    "id": "w024",
+    "display": {
+      "eastern": {
+        "syriac": "ܣܵܥܲܬ",
+        "latin": "sa`at"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "clock"
+  },
+  {
+    "id": "w025",
+    "display": {
+      "eastern": {
+        "syriac": "ܟܲܢܘܿܫܬܵܐ",
+        "latin": "kanoshta"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "broom"
+  },
+  {
+    "id": "w026",
+    "display": {
+      "eastern": {
+        "syriac": "ܟܲܟܵܐ",
+        "latin": "keeka"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "window"
+  },
+  {
+    "id": "w027",
+    "display": {
+      "eastern": {
+        "syriac": "ܨܲܘܠܬܵܐ",
+        "latin": "sawlta"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "prayer"
+  },
+  {
+    "id": "w028",
+    "display": {
+      "eastern": {
+        "syriac": "ܟܬ݂ܵܒ݂ܵܐ",
+        "latin": "khtava"
+      }
+    },
+    "categories": [
+      "school_education"
+    ],
+    "english": "book"
+  },
+  {
+    "id": "w029",
+    "display": {
+      "eastern": {
+        "syriac": "ܪܲܒܝܼ",
+        "latin": "rabee"
+      }
+    },
+    "categories": [
+      "school_education"
+    ],
+    "english": "teacher"
+  },
+  {
+    "id": "w030",
+    "display": {
+      "eastern": {
+        "syriac": "ܢܘܼܪܵܐ",
+        "latin": "nura"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "fire"
+  },
+  {
+    "id": "w031",
+    "display": {
+      "eastern": {
+        "syriac": "ܣܸܬܘܵܐ",
+        "latin": "sitwa"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "winter"
+  },
+  {
+    "id": "w032",
+    "display": {
+      "eastern": {
+        "syriac": "ܟܲܠܒܵܐ",
+        "latin": "kalba"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "dog"
+  },
+  {
+    "id": "w033",
+    "display": {
+      "eastern": {
+        "syriac": "ܩܵܛܘܿ",
+        "latin": "qato"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "cat"
+  },
+  {
+    "id": "w034",
+    "display": {
+      "eastern": {
+        "syriac": "ܬܲܘܪܬ݂ܵܐ",
+        "latin": "tawrtha"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "cow"
+  },
+  {
+    "id": "w035",
+    "display": {
+      "eastern": {
+        "syriac": "ܥܸܪܒܵܐ",
+        "latin": "`irba"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "sheep"
+  },
+  {
+    "id": "w036",
+    "display": {
+      "eastern": {
+        "syriac": "ܟܬ݂ܵܝܬܵܐ",
+        "latin": "kthayta"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "chicken"
+  },
+  {
+    "id": "w037",
+    "display": {
+      "eastern": {
+        "syriac": "ܩܵܪܘܿܝܵܐ",
+        "latin": "qaroya"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "rooster"
+  },
+  {
+    "id": "w038",
+    "display": {
+      "eastern": {
+        "syriac": "ܥܲܟܵܒ݂ܝܼܬ݂ܵܐ",
+        "latin": "`akkaveetha"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "spider"
+  },
+  {
+    "id": "w039",
+    "display": {
+      "eastern": {
+        "syriac": "ܚܸܘܘܹܐ",
+        "latin": "khiwweh"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "snake"
+  },
+  {
+    "id": "w040",
+    "display": {
+      "eastern": {
+        "syriac": "ܣܟܝܼܢܵܐ",
+        "latin": "skeena"
+      }
+    },
+    "categories": [
+      "kitchen_cooking"
+    ],
+    "english": "knife"
+  },
+  {
+    "id": "w041",
+    "display": {
+      "eastern": {
+        "syriac": "ܦܘܼܪܢܵܐ",
+        "latin": "purna"
+      }
+    },
+    "categories": [
+      "kitchen_cooking"
+    ],
+    "english": "oven"
+  },
+  {
+    "id": "w042",
+    "display": {
+      "eastern": {
+        "syriac": "ܡܲܡܫܝܼܬ݂ܵܐ",
+        "latin": "mamsheetha"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "mop"
+  },
+  {
+    "id": "w043",
+    "display": {
+      "eastern": {
+        "syriac": "ܦܪܝܼܣܬܵܐ",
+        "latin": "prista"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "rug"
+  },
+  {
+    "id": "w044",
+    "display": {
+      "eastern": {
+        "syriac": "ܥܸܙܲܩܬܵܐ",
+        "latin": "`izzaqta"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "ring"
+  },
+  {
+    "id": "w045",
+    "display": {
+      "eastern": {
+        "syriac": "ܫܸܒܪܬ݂ܵܐ",
+        "latin": "shibrtha"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "bracelet"
+  },
+  {
+    "id": "w046",
+    "display": {
+      "eastern": {
+        "syriac": "ܟ̰ܸܟܲܠܬܵܐ",
+        "latin": "chikkalta"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "sandals"
+  },
+  {
+    "id": "w047",
+    "display": {
+      "eastern": {
+        "syriac": "ܬܵܪܘܿܩܬܵܐ",
+        "latin": "taroqta"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "button"
+  },
+  {
+    "id": "w048",
+    "display": {
+      "eastern": {
+        "syriac": "ܒܹܝܥܬ݂ܵܐ",
+        "latin": "beh`tha"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "egg"
+  },
+  {
+    "id": "w049",
+    "display": {
+      "eastern": {
+        "syriac": "ܒܸܣܪܵܐ",
+        "latin": "bisra"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "meat"
+  },
+  {
+    "id": "w050",
+    "display": {
+      "eastern": {
+        "syriac": "ܫܘܼܪܒ݂ܵܐ",
+        "latin": "shurva"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "stew"
+  },
+  {
+    "id": "w051",
+    "display": {
+      "eastern": {
+        "syriac": "ܬܹܐܢܵܐ",
+        "latin": "tena"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "fig"
+  },
+  {
+    "id": "w052",
+    "display": {
+      "eastern": {
+        "syriac": "ܟ̰ܲܫܡܵܐ",
+        "latin": "chashma"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "toilet"
+  },
+  {
+    "id": "w053",
+    "display": {
+      "eastern": {
+        "syriac": "ܡܲܩܨܵܐ",
+        "latin": "maqsa"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "scissors"
+  },
+  {
+    "id": "w054",
+    "display": {
+      "eastern": {
+        "syriac": "ܚܲܠܒ݂ܵܐ",
+        "latin": "khalva"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "milk"
+  },
+  {
+    "id": "w055",
+    "display": {
+      "eastern": {
+        "syriac": "ܬܲܪܥܵܐ",
+        "latin": "tar`ah"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "door"
+  },
+  {
+    "id": "w056",
+    "display": {
+      "eastern": {
+        "syriac": "ܟܘܼܪܣܝܵܐ",
+        "latin": "kursya"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "chair"
+  },
+  {
+    "id": "w057",
+    "display": {
+      "eastern": {
+        "syriac": "ܚܝܼܙܵܐ",
+        "latin": "kheeza"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "sand"
+  },
+  {
+    "id": "w058",
+    "display": {
+      "eastern": {
+        "syriac": "ܘܲܪܕܵܐ",
+        "latin": "warda"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "flower"
+  },
+  {
+    "id": "w059",
+    "display": {
+      "eastern": {
+        "syriac": "ܕܸܡܵܐ",
+        "latin": "dimma"
+      }
+    },
+    "categories": [
+      "body_health"
+    ],
+    "english": "blood"
+  },
+  {
+    "id": "w060",
+    "display": {
+      "eastern": {
+        "syriac": "ܓܲܪܡܵܐ",
+        "latin": "garma"
+      }
+    },
+    "categories": [
+      "body_health"
+    ],
+    "english": "bone"
+  },
+  {
+    "id": "w061",
+    "display": {
+      "eastern": {
+        "syriac": "ܡܲܠܟܵܐ",
+        "latin": "malka"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "king"
+  },
+  {
+    "id": "w062",
+    "display": {
+      "eastern": {
+        "syriac": "ܕܲܚܫܵܐ",
+        "latin": "dakhsha"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "soldier"
+  },
+  {
+    "id": "w063",
+    "display": {
+      "eastern": {
+        "syriac": "ܐܲܟܵܪܵܐ",
+        "latin": "akkara"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "farmer"
+  },
+  {
+    "id": "w064",
+    "display": {
+      "eastern": {
+        "syriac": "ܕܘܿܟ݂ܬܘܿܪ",
+        "latin": "dokhtor"
+      }
+    },
+    "categories": [
+      "body_health"
+    ],
+    "english": "doctor"
+  },
+  {
+    "id": "w065",
+    "display": {
+      "eastern": {
+        "syriac": "ܓܲܢܬ݂ܵܐ",
+        "latin": "gantha"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "garden"
+  },
+  {
+    "id": "w066",
+    "display": {
+      "eastern": {
+        "syriac": "ܛܠܵܦ̮ܚܵܐ",
+        "latin": "tlafkha"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "lentils"
+  },
+  {
+    "id": "w067",
+    "display": {
+      "eastern": {
+        "syriac": "ܕܸܒ݂ܫܵܐ",
+        "latin": "divsha"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "honey"
+  },
+  {
+    "id": "w068",
+    "display": {
+      "eastern": {
+        "syriac": "ܪܵܚܘܿܦܬܵܐ",
+        "latin": "rakhopta"
+      }
+    },
+    "categories": [
+      "science_technology"
+    ],
+    "english": "helicopter"
+  },
+  {
+    "id": "w069",
+    "display": {
+      "eastern": {
+        "syriac": "ܛܲܝܵܣܬܵܐ",
+        "latin": "tayasta"
+      }
+    },
+    "categories": [
+      "science_technology"
+    ],
+    "english": "airplane"
+  },
+  {
+    "id": "w070",
+    "display": {
+      "eastern": {
+        "syriac": "ܣܵܒ݂ܵܐ",
+        "latin": "sava"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "grandfather"
+  },
+  {
+    "id": "w071",
+    "display": {
+      "eastern": {
+        "syriac": "ܙܡܵܪܬܵܐ",
+        "latin": "zmarta"
+      }
+    },
+    "categories": [
+      "hobbies_activities"
+    ],
+    "english": "song"
+  },
+  {
+    "id": "w072",
+    "display": {
+      "eastern": {
+        "syriac": "ܨܸܦܪܵܐ",
+        "latin": "sipra"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "bird"
+  },
+  {
+    "id": "w073",
+    "display": {
+      "eastern": {
+        "syriac": "ܪܲܕܵܝܬܵܐ",
+        "latin": "raddayta"
+      }
+    },
+    "categories": [
+      "science_technology"
+    ],
+    "english": "car"
+  },
+  {
+    "id": "w074",
+    "display": {
+      "eastern": {
+        "syriac": "ܟܘܟܒܐ",
+        "latin": "kawkwa"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "star"
+  },
+  {
+    "id": "w075",
+    "display": {
+      "eastern": {
+        "syriac": "ܢܘܼܢܵܐ",
+        "latin": "nuna"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "fish"
+  },
+  {
+    "id": "w076",
+    "display": {
+      "eastern": {
+        "syriac": "ܦܘܼܢܕܵܐ",
+        "latin": "punda"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "candle"
+  },
+  {
+    "id": "w077",
+    "display": {
+      "eastern": {
+        "syriac": "ܡܲܓ݂ܪܲܥܬܵܐ",
+        "latin": "maghra`ta"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "razor"
+  },
+  {
+    "id": "w078",
+    "display": {
+      "eastern": {
+        "syriac": "ܦܲܪܕܵܐ",
+        "latin": "parda"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "curtain"
+  },
+  {
+    "id": "w079",
+    "display": {
+      "eastern": {
+        "syriac": "ܝܵܠܸܚܬܵܐ",
+        "latin": "yalikhta"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "scarf"
+  },
+  {
+    "id": "w080",
+    "display": {
+      "eastern": {
+        "syriac": "ܩܲܡܚܵܐ",
+        "latin": "qamkha"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "flour"
+  },
+  {
+    "id": "w081",
+    "display": {
+      "eastern": {
+        "syriac": "ܚܲܠܵܐ",
+        "latin": "khalla"
+      }
+    },
+    "categories": [
+      "foods_drinks"
+    ],
+    "english": "vinegar"
+  },
+  {
+    "id": "w082",
+    "display": {
+      "eastern": {
+        "syriac": "ܣܘܼܣܹܐ",
+        "latin": "suseh"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "horse"
+  },
+  {
+    "id": "w083",
+    "display": {
+      "eastern": {
+        "syriac": "ܓܸܫܪܵܐ",
+        "latin": "gishra"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "bridge"
+  },
+  {
+    "id": "w084",
+    "display": {
+      "eastern": {
+        "syriac": "ܛܘܼܪܵܐ",
+        "latin": "tura"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "mountain"
+  },
+  {
+    "id": "w085",
+    "display": {
+      "eastern": {
+        "syriac": "ܢܲܗܪܵܐ",
+        "latin": "nahra"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "river"
+  },
+  {
+    "id": "w086",
+    "display": {
+      "eastern": {
+        "syriac": "ܟܘܿܣܝܼܬ݂ܵܐ",
+        "latin": "koseetha"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "hat"
+  },
+  {
+    "id": "w087",
+    "display": {
+      "eastern": {
+        "syriac": "ܥܲܝܒ݂ܵܐ",
+        "latin": "`ayva"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "cloud"
+  },
+  {
+    "id": "w088",
+    "display": {
+      "eastern": {
+        "syriac": "ܣܸܡܲܠܬܵܐ",
+        "latin": "simmalta"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "ladder"
+  },
+  {
+    "id": "w089",
+    "display": {
+      "eastern": {
+        "syriac": "ܐܘܼܬܝܼ",
+        "latin": "utee"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "clothes iron"
+  },
+  {
+    "id": "w090",
+    "display": {
+      "eastern": {
+        "syriac": "ܬܲܘܠܸܥܬ݂ܵܐ",
+        "latin": "tawli`tha"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "worm"
+  },
+  {
+    "id": "w091",
+    "display": {
+      "eastern": {
+        "syriac": "ܐܲܠܡܵܢ",
+        "latin": "alman"
+      }
+    },
+    "categories": [
+      "countries"
+    ],
+    "english": "Germany"
+  },
+  {
+    "id": "w092",
+    "display": {
+      "eastern": {
+        "syriac": "ܗܘܿܠܲܢܕܵܐ",
+        "latin": "holanda"
+      }
+    },
+    "categories": [
+      "countries"
+    ],
+    "english": "Netherlands"
+  },
+  {
+    "id": "w093",
+    "display": {
+      "eastern": {
+        "syriac": "ܠܲܡܣܵܐ",
+        "latin": "lamsa"
+      }
+    },
+    "categories": [
+      "countries"
+    ],
+    "english": "Austria"
+  },
+  {
+    "id": "w094",
+    "display": {
+      "eastern": {
+        "syriac": "ܐܲܪܡܲܢ",
+        "latin": "arman"
+      }
+    },
+    "categories": [
+      "countries"
+    ],
+    "english": "Armenia"
+  },
+  {
+    "id": "w095",
+    "display": {
+      "eastern": {
+        "syriac": "ܫܘܝܼܨܵܐ",
+        "latin": "shweesa"
+      }
+    },
+    "categories": [
+      "countries"
+    ],
+    "english": "Switzerland"
+  },
+  {
+    "id": "w096",
+    "display": {
+      "eastern": {
+        "syriac": "ܐܹܘܩܝܵܢܘܿܣ",
+        "latin": "ewqyanos"
+      }
+    },
+    "categories": [
+      "everyday_objects"
+    ],
+    "english": "ocean"
+  },
+  {
+    "id": "w097",
+    "display": {
+      "eastern": {
+        "syriac": "ܡܸܫܬܲܢܝܵܢܵܐ",
+        "latin": "mishtanyana"
+      }
+    },
+    "categories": [
+      "science_technology"
+    ],
+    "english": "cellphone"
+  },
+  {
+    "id": "w098",
+    "display": {
+      "eastern": {
+        "syriac": "ܣܸܬ݂ܪܵܐ",
+        "latin": "sithra"
+      }
+    },
+    "categories": [
+      "science_technology"
+    ],
+    "english": "screen"
+  },
+  {
+    "id": "w099",
+    "display": {
+      "eastern": {
+        "syriac": "ܕܸܒ݂ܩܵܐ",
+        "latin": "divqa"
+      }
+    },
+    "categories": [
+      "science_technology"
+    ],
+    "english": "glue"
+  },
+  {
+    "id": "w100",
+    "display": {
+      "eastern": {
+        "syriac": "ܡܘܼܚܵܐ",
+        "latin": "mukha"
+      }
+    },
+    "categories": [
+      "body_health"
+    ],
+    "english": "brain"
+  },
+  {
+    "id": "w101",
+    "display": {
+      "eastern": {
+        "syriac": "ܩܘܿܦܵܐ",
+        "latin": "qopa"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "monkey"
+  },
+  {
+    "id": "w102",
+    "display": {
+      "eastern": {
+        "syriac": "ܙܵܪܝܼܦܵܐ",
+        "latin": "zareepa"
+      }
+    },
+    "categories": [
+      "animals"
+    ],
+    "english": "giraffe"
+  }
+]

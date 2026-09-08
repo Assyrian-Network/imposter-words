@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Open a pull request
+    url: https://github.com/Assyrian-Network/imposter-words/blob/main/CONTRIBUTING.md
+    about: New words should arrive as a pull request after you fork the repo.

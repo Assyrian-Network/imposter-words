@@ -1,0 +1,55 @@
+name: Propose a word
+description: Float a Suret word before someone opens a pull request to add it.
+title: "Word proposal: "
+labels: ["word-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Imposter is a family game. Only propose words a parent would be fine
+        seeing on a kid's screen. Read CONTRIBUTING.md before you file this.
+  - type: input
+    id: english
+    attributes:
+      label: English gloss
+      description: Short English meaning
+      placeholder: house
+    validations:
+      required: true
+  - type: input
+    id: syriac
+    attributes:
+      label: Syriac (Eastern Suret)
+      placeholder: ܒܲܝܬܵܐ
+    validations:
+      required: true
+  - type: input
+    id: latin
+    attributes:
+      label: Latin transliteration
+      placeholder: bayta
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary category
+      options:
+        - everyday_objects
+        - famous_people
+        - foods_drinks
+        - animals
+        - hobbies_activities
+        - kitchen_cooking
+        - school_education
+        - science_technology
+        - sports
+        - countries
+        - body_health
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Other spellings, dialect, or anything a reviewer should know
